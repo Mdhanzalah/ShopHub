@@ -1,0 +1,115 @@
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(5,minmax(0, 1fr));
+  gap: 12px;
+  padding: 20px;
+}
+.product-card{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  transition:transform 0.3s ease,box-shadow 0.3s ease;
+}
+.product-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.product-card img{
+  width: 100%;
+  height: 130px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+.product-card:hover img{
+  transform: scale(1.05);
+}
+
+.product-card button{
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease,transform 0.2s ease;
+}
+.product-card button:hover{
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+.product-card button:active{
+  transform: scale(0.97);
+}
+
+.cart-container {
+  
+  text-align: center;
+
+}
+.cart-item img{
+ width: 150px;
+ height: 150px;
+ object-fit: contain;
+}
+
+.cart-item{
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+ 
+.cart-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cart-item button{
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 10pxpx 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+.cart-item button:hover{
+  background-color: #991b1b;
+  transform: scale(1.05);
+
+}
+.cart-item button:active{
+  transform: scale(0.95);
+}
+.checkout-btn:not(:disabled){
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+.checkout-btn:disabled{
+  background-color: #d1d5db;
+  color: #6b7280;
+  cursor: pointer;
+}
+.checkout-btn:not(:disabled):hover{
+  background-color: #1d4ed8;
+}

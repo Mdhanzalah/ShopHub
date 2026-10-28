@@ -1,0 +1,116 @@
+.payment{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background:#1e293b;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.payment h2{
+    color:white;
+    font-size: 26px;
+    font-weight: 700;
+    
+    margin-bottom: 25px;
+
+}
+.payment p{
+    color:white;
+    margin-bottom: 15px;
+
+}
+.payment button{
+    background: #2874f0;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.payment button:hover{
+    background: #1558c0;
+}
+.paymentMethod{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    text-align: left;
+
+}
+.paymentMethod label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid  #2874f0;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+
+}
+.paymentMethod label:hover{
+    border-color: #2874f0;
+    background: #f5f8ff;
+}
+h3{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color:white;
+    text-align: left;
+
+}
+input[type="text"], .payment input[type="password"], .payment select{
+width: 100%;
+padding: 12px;
+margin-bottom: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
+box-sizing: border-box;
+outline: none;
+}
+.payment input:focus, .payment select:focus{
+    border-color: #2874f0;
+    box-shadow: 0 0 4px rgba(40, 116, 240,0.3);
+
+}
+.payemnt select{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.success {
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    background: #e8f9ee;
+    border: 2px solid #28a745;
+    border-radius: 12px;
+    animation: fadeIn 0.6s ease-in;
+}
+
+.success h2 {
+    color: #28a745;
+    font-size: 26px;
+}
+
+.success p {
+    color: #333;
+    font-size: 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

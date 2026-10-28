@@ -4,6 +4,26 @@
   gap: 12px;
   padding: 20px;
 }
+
+
+@media(max-width:768px){
+  .product-grid{grid-template-columns: repeat(2,minmax(0,1fr));
+           gap: 10px;
+           padding: 10px;
+
+  }
+}
+
+
+@media(max-width:360){
+  .product-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
 .product-card{
   width: 100%;
   box-sizing: border-box;

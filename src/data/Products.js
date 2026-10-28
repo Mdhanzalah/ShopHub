@@ -69,7 +69,7 @@ const products=[
      {
         id:9,
         name:"RedBull",
-        price:1299,
+        price:149,
         category:"Cold Drinks",
         image:"drinks01.jpg"
 
@@ -418,7 +418,7 @@ const products=[
         {
         id:52,
         name:"Sting/Energy",
-        price:1299,
+        price:60,
         category:"Cold Drinks",
         image:"drinks02.jpg"
 
@@ -426,7 +426,7 @@ const products=[
         {
         id:53,
         name:"Coca Cola",
-        price:1299,
+        price:67,
         category:"Cold Drinks",
         image:"drinks33.jpg"
 
@@ -434,7 +434,7 @@ const products=[
         {
         id:54,
         name:"Pepsi/-",
-        price:1299,
+        price:99,
         category:"Cold Drinks",
         image:"drinks55.jpg"
 
@@ -442,7 +442,7 @@ const products=[
         {
         id:55,
         name:"Mountain/Dew",
-        price:1299,
+        price:45,
         category:"Cold Drinks",
         image:"drinkssD.jpg"
 

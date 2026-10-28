@@ -109,9 +109,9 @@ const products=[
     },
      {
         id:14,
-        name:"Shoe",
+        name:"Earbud B",
         price:1299,
-        category:"Footwear",
+        category:"Electronics",
         image:"buds1.jpg"
 
     },
@@ -143,7 +143,7 @@ const products=[
     },
         {
         id:18,
-        name:"Iphone/Pro/Max",
+        name:"Iphone 18",
         price:12999,
         category:"Mobile",
         image:"iphone18 pro.jpg"
